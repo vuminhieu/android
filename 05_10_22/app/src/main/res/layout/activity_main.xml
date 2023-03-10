@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/fb_icon_325x325" />
+
+        <EditText
+            android:id="@+id/txt_email"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:ems="15"
+            android:hint="Số điện thoại hoặc email"
+            android:textSize="19dp"
+            tools:ignore="TouchTargetSizeCheck"
+            app:counterEnabled="true"/>
+
+        <EditText
+            android:id="@+id/txt_password"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:ems="15"
+            android:hint="Mật Khẩu"
+            android:inputType="textPassword"
+            android:textSize="19dp"
+            tools:ignore="TouchTargetSizeCheck"
+            app:counterEnabled="true"/>
+
+        <TextView
+            android:id="@+id/txt_forget_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="15dp"
+            android:text="Quên Mật Khẩu?"
+            android:textColor="#2980b9"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/btn_sign_in"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/custom_button"
+            android:text="Đăng Nhập"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btn_sign_up"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button"
+            android:text="Tạo tài khoản mới"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

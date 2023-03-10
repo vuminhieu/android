@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+    <TextView
+        android:id="@+id/tv_ten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Ten"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/tv_gioi_tinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Gioi Tinh"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/tv_so_thich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="So Thich"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/tv_tinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Tinh"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
